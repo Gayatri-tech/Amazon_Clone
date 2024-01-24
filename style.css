@@ -169,20 +169,23 @@ header {
   padding: 3rem 1rem;
 }
 .card {
-  /* background-color: red; */
   width: 30%;
-  height: 420px;
+  height: 400px;
   background-color: #fff;
   margin: 1rem;
-  padding: 1rem;
+  padding: 0.8rem;
 }
 .card h2 {
   font-size: 1.3rem;
 }
+.card a {
+  font-size: 0.75rem;
+  text-decoration: none;
+  color: #007185;
+}
 .card-items {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 1rem;
 }
 .image {
   width: 45%;
@@ -191,6 +194,8 @@ header {
 .image h4 {
   font-size: 0.85rem;
   font-weight: 400;
+  margin: 0.5rem;
+  color: #0f1111;
 }
 .img1 {
   background-image: url(/Media/img1.jpg);
@@ -309,7 +314,7 @@ header {
 }
 /* MORE ITEMS SECTION */
 .more-items {
-  margin-top: 100px;
+  margin-top: 60px;
   height: 280px;
   background-color: #fff;
   padding: 1rem;
